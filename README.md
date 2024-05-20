@@ -29,7 +29,8 @@ This repository contains a solution to optimize the test parametrization process
    pip install pytest
    ```
 
-3. **Integrate the Custom Hook**: Add the provided `pytest_generate_tests` hook and helper functions to your pytest configuration.
+3. **Integrate the Custom Hook**: Add the provided `pytest_generate_tests` hook and helper functions to your pytest configuration by placing them in a `conftest.py`.
+
 
 4. **Run Tests with Markers**: Use markers to specify which tests to parametrize and run, leveraging the optimized filtering mechanism:
    ```sh
