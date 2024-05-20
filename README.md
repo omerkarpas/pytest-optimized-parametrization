@@ -1,4 +1,4 @@
-### Repository Description: `pytest-optimized-parametrization`
+`pytest-optimized-parametrization`
 
 ---
 
